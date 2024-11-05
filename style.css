@@ -45,7 +45,7 @@ ul {
 
 h1 {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .left-text {
@@ -57,6 +57,7 @@ h1 {
   height: 235px;
   background: #6d747d;
   align-content: center;
+  text-align: center;
 }
 
 .hero-signup-btn {
@@ -128,6 +129,7 @@ p.quote {
 }
 
 .reviewer-name {
+  font-size: 20px;
   font-weight: 900;
   text-align: right;
 }
@@ -135,6 +137,7 @@ p.quote {
 /*CTA section*/
 .cta-section {
   height: 350px;
+  padding-top: 100px;
 }
 
 .cta-box {
@@ -144,6 +147,39 @@ p.quote {
   background-color: #3b82f6;
   color: white;
   margin: auto;
-  margin-top: 100px;
+
+  padding-top: 55px;
   display: flex;
+  justify-content: space-around;
+}
+
+.cta-headline {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.cta-signup-btn {
+  width: 130px;
+  height: 37px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  border: 2px solid #fff;
+}
+
+/* FOOTER section */
+footer {
+  height: 100px;
+  background-color: #1f2937;
+  color: #fff;
+  padding-top: 42px;
+}
+
+footer p {
+  font-size: 15px;
+  text-align: center;
 }
